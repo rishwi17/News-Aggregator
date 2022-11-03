@@ -1,0 +1,4 @@
+Client/node_modules
+authServer/node_modules
+Client/package-lock.json
+authServer/package-lock.json

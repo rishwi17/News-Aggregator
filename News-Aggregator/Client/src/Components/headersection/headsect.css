@@ -1,0 +1,110 @@
+:root {
+  --blue: #bb2828;
+  --pink: rgba(255, 131, 195, 0.4);
+  --white: rgba(255, 255, 255, 0.9);
+}
+
+/* header {
+  padding: 0 2rem;
+  min-height: 100vh;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://images.pexels.com/photos/5676679/pexels-photo-5676679.jpeg?cs=srgb&dl=pexels-ivan-samkov-5676679.jpg&fm=jpg);
+  background-size: cover;
+} */
+
+.outee {
+  height: 100vh;
+}
+nav {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.outee {
+  background-image: url(../../Images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.image-nav {
+  height: 100px;
+}
+
+.header {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-nav {
+  margin-left: 2%;
+  height: 80px;
+  width: 80px;
+}
+
+.left-content {
+  width: 40vw;
+  padding-left: 40px;
+}
+
+.stay-home {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-bottom: 0;
+  color: #8b64b4;
+}
+
+.left-content h1 {
+  margin: 0 0 1rem 0;
+  font-weight: 900;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  color: #3b365e;
+}
+
+.para {
+  color: #3b365ecb;
+}
+
+@media (max-width: 968px) {
+  .left-content {
+    width: 100vw;
+    padding: 2%;
+  }
+  .left-content h1 {
+    margin: 0 0 0.7rem 0;
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #3b365e;
+  }
+}
+
+.left-content button {
+  padding: 0.9rem 1.2rem;
+  border-radius: 25px;
+  background-color: var(--blue);
+  border: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  color: var(--white);
+  cursor: pointer;
+}
+.buttonn {
+  background-color: var(--blue);
+  border: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  color: var(--white);
+  cursor: pointer;
+}

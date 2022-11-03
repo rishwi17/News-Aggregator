@@ -1,0 +1,48 @@
+.list-content {
+    display: block;
+    margin-left: 10%;
+    padding: 15px;
+    position: relative;
+}
+
+.list-meta {
+    display: block;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 100%;
+}
+
+.list-meta .list-meta-item {
+    display: inline-block;
+    margin-right: 18px;
+    color: #9A9A9A;
+}
+
+.list:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.lsit {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .list-header {
+        display: block;
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .list-content {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        padding: 15px;
+        clear: both;
+    }
+}

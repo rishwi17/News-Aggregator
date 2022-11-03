@@ -1,0 +1,13 @@
+version: '3'
+services:
+  myapp:
+    container_name: news-aggregator
+    restart: always
+    build: .
+    ports:
+      - '8000:8000'
+    links:
+      - redis
+  redis:
+    container_name: redis-server
+    image: 'redis:4.0.11'

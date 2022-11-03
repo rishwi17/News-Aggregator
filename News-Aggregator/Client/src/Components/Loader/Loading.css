@@ -1,0 +1,8 @@
+.ExampleOfUsage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
